@@ -1,0 +1,124 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: #15477c;
+    justify-content: center;
+    align-items: center;
+}
+
+.foundation{
+    border: 2px solid #000;
+    display: grid;
+    width: 350px;
+    height: 450px;
+    grid-template-rows: repeat(5, 80px);
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.enter-answer {
+    grid-column: span 4;
+    color: #000;
+    font-size: 24px;
+    width: 348px;
+    display: grid;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+.buttons-math-sentacsis{
+    width: 348px;
+    height: 408px;
+    display: grid;
+    grid-template-rows: repeat(6, 80px);
+    grid-template-columns: repeat(4, 80px);
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+.btn{
+    border-radius: 20px;
+    width: 65px;
+    height: 65px;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+ */
+
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #15477c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.foundation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enter-answer {
+    width: 100%;
+    height: 50px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.buttons-math-sentacsis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn.zero-btn {
+    grid-column: span 2;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
