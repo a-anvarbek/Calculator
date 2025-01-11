@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #15477c;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -68,4 +68,9 @@ body {
 
 .btn:hover {
     background-color: #0056b3;
+}
+
+footer{
+    margin-bottom: 0;
+    margin: auto;
 }
